@@ -1,4 +1,4 @@
-# React Activity Heatmap
+# Otter Heatmap
 
 ![Heatmap Demo](./assets/example.png)
 
