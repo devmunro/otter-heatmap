@@ -5,7 +5,7 @@ export function getColorForCount(
 ) {
   if (count <= 0) return "#ebedf0";
 
-  const intensity = Math.min(0.5 + 0.7 * (count / maxCount), 1);
+  const intensity = Math.min(0.35 + 0.9 * (count / maxCount), 1);
 
   return shadeColor(baseColor, intensity);
 }
