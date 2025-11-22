@@ -1,6 +1,6 @@
 {
   "name": "react-otter-heatmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable React heatmap component with optional scrollable layout and circle/rect cell types.",
   "main": "dist/react-activity-heatmap.cjs.js",
   "module": "dist/react-activity-heatmap.es.js",
