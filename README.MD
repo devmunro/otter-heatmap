@@ -1,6 +1,7 @@
 # React Activity Heatmap
 
-![HeatMapExample](image.png)
+![Heatmap Demo](./assets/example.png)
+
 
 A customizable React heatmap component built with TypeScript and `date-fns`.
 Supports rectangular and circular cells, tooltips, and scrollable layouts.
