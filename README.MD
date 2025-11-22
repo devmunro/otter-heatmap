@@ -1,15 +1,17 @@
 # React Activity Heatmap
 
+![HeatMapExample](image.png)
+
 A customizable React heatmap component built with TypeScript and `date-fns`.
 Supports rectangular and circular cells, tooltips, and scrollable layouts.
 
 ## Features
 
-* Display data by date in a heatmap
-* Configurable cell size, spacing, and color
-* Optional scrollable layout
-* Custom tooltips for each day
-* Works with React 19
+- Display data by date in a heatmap
+- Configurable cell size, spacing, and color
+- Optional scrollable layout
+- Custom tooltips for each day
+- Works with React 19
 
 ## Installation
 
