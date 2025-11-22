@@ -1,6 +1,6 @@
 # Otter Heatmap
 
-![Heatmap Demo](./assets/example.png)
+![Heatmap Demo](https://github.com/devmunro/otter-heatmap/raw/main/assets/example.png)
 
 
 A customizable React heatmap component built with TypeScript and `date-fns`.
