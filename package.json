@@ -1,21 +1,31 @@
 {
   "name": "react-activity-heatmap",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A customizable React heatmap component with optional scrollable layout and circle/rect cell types.",
+  "main": "dist/react-activity-heatmap.cjs.js",
+  "module": "dist/react-activity-heatmap.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "prepare": "npm run build",
+    "test": "echo \"No test specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "date-fns": "^4.1.0",
+  "keywords": [
+    "react",
+    "heatmap",
+    "calendar",
+    "activity",
+    "data-visualization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "date-fns": "^4.1.0"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
